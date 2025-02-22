@@ -18,23 +18,19 @@ Node.js
 
 MongoDB (local or cloud-based, e.g., MongoDB Atlas)
 
-Git
-
 Setup Instructions
 
-1. Clone the Repository
+Clone the Repository
 
 git clone
-
-2. Navigate to the Project Directory
+Navigate to the Project Directory
 
 cd 
 
-3. Install Server Dependencies
+Install Server Dependencies
 
 npm install
-
-4. Set Up Environment Variables
+Set Up Environment Variables
 
 Create a .env file in the root directory and add the following:
 
@@ -42,16 +38,16 @@ MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_secret_key
 
-5. Start the Server
+Start the Server
 
 npm run start
 
-6. Install Frontend Dependencies
+Install Frontend Dependencies
 
 cd frontend
 npm install
 
-7. Start the Client
+Start the Client
 
 npm start
 
